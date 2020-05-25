@@ -1,0 +1,275 @@
+body{
+    margin-left: 0;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;  
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width:;
+    display: flex;
+    
+     
+}
+
+.container1 {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: flex-end;
+     
+}
+
+.header__inner{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.device{
+    display: flex;
+    align-items: center;
+}
+
+.device__1{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: solid 2px;
+    border-color: #000;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.device__2{
+    padding:5px 10px 5px 10px;
+    border: solid 2px;
+    border-color: #000;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.device__3{
+    padding:5px 10px 5px 10px;
+    border: solid 2px;
+    border-color: #000;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.help{
+    display: flex;
+    justify-content:flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.text{
+    color: #000;
+}
+
+.device__1:hover{
+    border-color: #0000ff;
+}
+.device__2:hover{
+    border-color: #0000ff;
+}
+.device__3:hover{
+    border-color: #0000ff;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color:#000 ;
+}
+.nav__1{
+    border: solid 1px #808080;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 10px;
+    background-color:#fff;
+}
+
+.nav__1:hover{
+    background-color: #808080;
+    opacity: ;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 100px;
+    
+    
+    background-image: url(img/body/moto.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+      
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.intro__title {
+    margin: 0 0 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.intro__subtitle {
+    margin-bottom: 60px;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+
+.hz{
+    display: flex;
+    background-color: #8000ff;
+    
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 30px;
+    
+
+}
+
+.info{
+ width: 100%;
+}
+.info__text1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 150px;
+    margin: 30px;
+}
+.info__text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding-left:50px;
+    padding-right: 50px;
+    margin: 30px;
+}
+.info__text3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding-right: 150px;
+    margin: 30px;
+}
+
+.work{
+   flex-wrap: wrap;
+    display: flex;
+}
+
+.work__title{
+    margin-top: 50px;
+    margin-left: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+
+.work__text{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.work__text1{
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.work__text2{
+    line-height: 1.5;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.work__text3{
+    margin-top:50px;
+    margin-left: 500px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+.work__text4{
+    margin-top:50px;
+    margin-left:150px;
+    margin-right: 400px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.one{
+    width: 95px;
+    padding-left: 2px;
+    color: #fff;
+    background-color: #8000ff;
+    
+}
+
+.work__border{
+    width: 100%;
+    border-bottom: solid 1px #303030;
+    display: flex;
+    margin-top: 50px;
+}
+
